@@ -4,7 +4,7 @@
 # author: Nataliia Dragunova
 
 # current temperature in Kyiv(Ukraine)
-'''
+
 import requests
 import json
 
@@ -19,7 +19,7 @@ current = data["current"]
 temp = current["temperature_2m"]
 # print(temp)
 print(temp)
-'''
+
 # current wind direction (10m) in Kyiv(Ukraine)
 import requests
 import json
